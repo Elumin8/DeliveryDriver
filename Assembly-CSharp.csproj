@@ -62,14 +62,10 @@
     <Analyzer Include="/Users/kyrylokolosov/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="Assets/Scripts/Driver.cs" />
-=======
     <Compile Include="Assets/Scripts/PickUp.cs" />
     <Compile Include="Assets/Scripts/FollowCamera.cs" />
     <Compile Include="Assets/Scripts/Driver.cs" />
     <Compile Include="Assets/Scripts/Delivery.cs" />
->>>>>>> d3bdd39 (Enviroment and code for deliveries and recognition betw coustomers and packs)
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags: []
-=======
-  tags:
-  - Package
-  - Customer
->>>>>>> d3bdd39 (Enviroment and code for deliveries and recognition betw coustomers and packs)
   layers:
   - Default
   - TransparentFX
