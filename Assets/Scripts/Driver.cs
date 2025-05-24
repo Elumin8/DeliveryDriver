@@ -17,9 +17,26 @@ public class Driver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
 
         float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime;
         float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+=======
+<<<<<<< HEAD
+        float moveAmount = Input.GetAxis("Vertical") * moveSpeed;
+        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed;
+=======
+<<<<<<< HEAD
+        float moveAmount = Input.GetAxis("Vertical") * moveSpeed;
+        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed;
+=======
+        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime;
+        float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        
+>>>>>>> d3bdd39 (Enviroment and code for deliveries and recognition betw coustomers and packs)
+>>>>>>> 639e3ce (second Commit)
+
+>>>>>>> testing2
         transform.Rotate(0, 0, -steerAmount);
         transform.Translate(0, moveAmount, 0);
 

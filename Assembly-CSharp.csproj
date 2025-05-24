@@ -62,10 +62,24 @@
     <Analyzer Include="/Users/kyrylokolosov/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <Compile Include="Assets/Scripts/Driver.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="Assets/Scripts/Driver.cs" />
+=======
+>>>>>>> testing2
     <Compile Include="Assets/Scripts/PickUp.cs" />
     <Compile Include="Assets/Scripts/FollowCamera.cs" />
     <Compile Include="Assets/Scripts/Driver.cs" />
     <Compile Include="Assets/Scripts/Delivery.cs" />
+<<<<<<< HEAD
+=======
+>>>>>>> d3bdd39 (Enviroment and code for deliveries and recognition betw coustomers and packs)
+>>>>>>> 639e3ce (second Commit)
+>>>>>>> testing2
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
